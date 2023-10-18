@@ -5,6 +5,7 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
+// Hello bernie
 app.get('/api/data', (req, res) => {
   // Replace this with your data or database query
   const data = {
