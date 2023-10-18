@@ -2,16 +2,16 @@
 //  cardyBApp.swift
 //  cardyB
 //
-//  Created by Yang-Shan Chen on 10/17/23.
+//  Created by bernieteng on 2023/10/17.
 //
-
-import SwiftUI
-
-@main
-struct cardyBApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+//
+//import SwiftUI
+//
+//@main
+//struct cardyBApp: App {
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//        }
+//    }
+//}

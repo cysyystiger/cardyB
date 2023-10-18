@@ -3,65 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA652AAD2ADF9A7A00460C25 /* cardyBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA652AAC2ADF9A7A00460C25 /* cardyBApp.swift */; };
-		AA652AAF2ADF9A7A00460C25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA652AAE2ADF9A7A00460C25 /* ContentView.swift */; };
-		AA652AB12ADF9A7B00460C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA652AB02ADF9A7B00460C25 /* Assets.xcassets */; };
-		AA652AB42ADF9A7B00460C25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA652AB32ADF9A7B00460C25 /* Preview Assets.xcassets */; };
-		AA652ABE2ADF9A7B00460C25 /* cardyBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA652ABD2ADF9A7B00460C25 /* cardyBTests.swift */; };
-		AA652AC82ADF9A7B00460C25 /* cardyBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA652AC72ADF9A7B00460C25 /* cardyBUITests.swift */; };
-		AA652ACA2ADF9A7B00460C25 /* cardyBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA652AC92ADF9A7B00460C25 /* cardyBUITestsLaunchTests.swift */; };
+		E2EBCC452ADF8A760098413D /* cardyBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBCC442ADF8A760098413D /* cardyBApp.swift */; };
+		E2EBCC472ADF8A760098413D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBCC462ADF8A760098413D /* ContentView.swift */; };
+		E2EBCC492ADF8A7A0098413D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EBCC482ADF8A7A0098413D /* Assets.xcassets */; };
+		E2EBCC4C2ADF8A7A0098413D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EBCC4B2ADF8A7A0098413D /* Preview Assets.xcassets */; };
+		E2EBCC562ADF8A7A0098413D /* cardyBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBCC552ADF8A7A0098413D /* cardyBTests.swift */; };
+		E2EBCC602ADF8A7A0098413D /* cardyBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBCC5F2ADF8A7A0098413D /* cardyBUITests.swift */; };
+		E2EBCC622ADF8A7A0098413D /* cardyBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBCC612ADF8A7A0098413D /* cardyBUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA652ABA2ADF9A7B00460C25 /* PBXContainerItemProxy */ = {
+		E2EBCC522ADF8A7A0098413D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AA652AA12ADF9A7900460C25 /* Project object */;
+			containerPortal = E2EBCC392ADF8A760098413D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA652AA82ADF9A7A00460C25;
+			remoteGlobalIDString = E2EBCC402ADF8A760098413D;
 			remoteInfo = cardyB;
 		};
-		AA652AC42ADF9A7B00460C25 /* PBXContainerItemProxy */ = {
+		E2EBCC5C2ADF8A7A0098413D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AA652AA12ADF9A7900460C25 /* Project object */;
+			containerPortal = E2EBCC392ADF8A760098413D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA652AA82ADF9A7A00460C25;
+			remoteGlobalIDString = E2EBCC402ADF8A760098413D;
 			remoteInfo = cardyB;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA652AA92ADF9A7A00460C25 /* cardyB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardyB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA652AAC2ADF9A7A00460C25 /* cardyBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBApp.swift; sourceTree = "<group>"; };
-		AA652AAE2ADF9A7A00460C25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AA652AB02ADF9A7B00460C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA652AB32ADF9A7B00460C25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA652AB92ADF9A7B00460C25 /* cardyBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardyBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA652ABD2ADF9A7B00460C25 /* cardyBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBTests.swift; sourceTree = "<group>"; };
-		AA652AC32ADF9A7B00460C25 /* cardyBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardyBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA652AC72ADF9A7B00460C25 /* cardyBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBUITests.swift; sourceTree = "<group>"; };
-		AA652AC92ADF9A7B00460C25 /* cardyBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2EBCC412ADF8A760098413D /* cardyB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardyB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EBCC442ADF8A760098413D /* cardyBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBApp.swift; sourceTree = "<group>"; };
+		E2EBCC462ADF8A760098413D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2EBCC482ADF8A7A0098413D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2EBCC4B2ADF8A7A0098413D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2EBCC512ADF8A7A0098413D /* cardyBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardyBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EBCC552ADF8A7A0098413D /* cardyBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBTests.swift; sourceTree = "<group>"; };
+		E2EBCC5B2ADF8A7A0098413D /* cardyBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardyBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2EBCC5F2ADF8A7A0098413D /* cardyBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBUITests.swift; sourceTree = "<group>"; };
+		E2EBCC612ADF8A7A0098413D /* cardyBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA652AA62ADF9A7A00460C25 /* Frameworks */ = {
+		E2EBCC3E2ADF8A760098413D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA652AB62ADF9A7B00460C25 /* Frameworks */ = {
+		E2EBCC4E2ADF8A7A0098413D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA652AC02ADF9A7B00460C25 /* Frameworks */ = {
+		E2EBCC582ADF8A7A0098413D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +71,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA652AA02ADF9A7900460C25 = {
+		E2EBCC382ADF8A760098413D = {
 			isa = PBXGroup;
 			children = (
-				AA652AAB2ADF9A7A00460C25 /* cardyB */,
-				AA652ABC2ADF9A7B00460C25 /* cardyBTests */,
-				AA652AC62ADF9A7B00460C25 /* cardyBUITests */,
-				AA652AAA2ADF9A7A00460C25 /* Products */,
+				E2EBCC432ADF8A760098413D /* cardyB */,
+				E2EBCC542ADF8A7A0098413D /* cardyBTests */,
+				E2EBCC5E2ADF8A7A0098413D /* cardyBUITests */,
+				E2EBCC422ADF8A760098413D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AA652AAA2ADF9A7A00460C25 /* Products */ = {
+		E2EBCC422ADF8A760098413D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA652AA92ADF9A7A00460C25 /* cardyB.app */,
-				AA652AB92ADF9A7B00460C25 /* cardyBTests.xctest */,
-				AA652AC32ADF9A7B00460C25 /* cardyBUITests.xctest */,
+				E2EBCC412ADF8A760098413D /* cardyB.app */,
+				E2EBCC512ADF8A7A0098413D /* cardyBTests.xctest */,
+				E2EBCC5B2ADF8A7A0098413D /* cardyBUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA652AAB2ADF9A7A00460C25 /* cardyB */ = {
+		E2EBCC432ADF8A760098413D /* cardyB */ = {
 			isa = PBXGroup;
 			children = (
-				AA652AAC2ADF9A7A00460C25 /* cardyBApp.swift */,
-				AA652AAE2ADF9A7A00460C25 /* ContentView.swift */,
-				AA652AB02ADF9A7B00460C25 /* Assets.xcassets */,
-				AA652AB22ADF9A7B00460C25 /* Preview Content */,
+				E2EBCC442ADF8A760098413D /* cardyBApp.swift */,
+				E2EBCC462ADF8A760098413D /* ContentView.swift */,
+				E2EBCC482ADF8A7A0098413D /* Assets.xcassets */,
+				E2EBCC4A2ADF8A7A0098413D /* Preview Content */,
 			);
 			path = cardyB;
 			sourceTree = "<group>";
 		};
-		AA652AB22ADF9A7B00460C25 /* Preview Content */ = {
+		E2EBCC4A2ADF8A7A0098413D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AA652AB32ADF9A7B00460C25 /* Preview Assets.xcassets */,
+				E2EBCC4B2ADF8A7A0098413D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		AA652ABC2ADF9A7B00460C25 /* cardyBTests */ = {
+		E2EBCC542ADF8A7A0098413D /* cardyBTests */ = {
 			isa = PBXGroup;
 			children = (
-				AA652ABD2ADF9A7B00460C25 /* cardyBTests.swift */,
+				E2EBCC552ADF8A7A0098413D /* cardyBTests.swift */,
 			);
 			path = cardyBTests;
 			sourceTree = "<group>";
 		};
-		AA652AC62ADF9A7B00460C25 /* cardyBUITests */ = {
+		E2EBCC5E2ADF8A7A0098413D /* cardyBUITests */ = {
 			isa = PBXGroup;
 			children = (
-				AA652AC72ADF9A7B00460C25 /* cardyBUITests.swift */,
-				AA652AC92ADF9A7B00460C25 /* cardyBUITestsLaunchTests.swift */,
+				E2EBCC5F2ADF8A7A0098413D /* cardyBUITests.swift */,
+				E2EBCC612ADF8A7A0098413D /* cardyBUITestsLaunchTests.swift */,
 			);
 			path = cardyBUITests;
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA652AA82ADF9A7A00460C25 /* cardyB */ = {
+		E2EBCC402ADF8A760098413D /* cardyB */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA652ACD2ADF9A7B00460C25 /* Build configuration list for PBXNativeTarget "cardyB" */;
+			buildConfigurationList = E2EBCC652ADF8A7A0098413D /* Build configuration list for PBXNativeTarget "cardyB" */;
 			buildPhases = (
-				AA652AA52ADF9A7A00460C25 /* Sources */,
-				AA652AA62ADF9A7A00460C25 /* Frameworks */,
-				AA652AA72ADF9A7A00460C25 /* Resources */,
+				E2EBCC3D2ADF8A760098413D /* Sources */,
+				E2EBCC3E2ADF8A760098413D /* Frameworks */,
+				E2EBCC3F2ADF8A760098413D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,106 +144,106 @@
 			);
 			name = cardyB;
 			productName = cardyB;
-			productReference = AA652AA92ADF9A7A00460C25 /* cardyB.app */;
+			productReference = E2EBCC412ADF8A760098413D /* cardyB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA652AB82ADF9A7B00460C25 /* cardyBTests */ = {
+		E2EBCC502ADF8A7A0098413D /* cardyBTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA652AD02ADF9A7B00460C25 /* Build configuration list for PBXNativeTarget "cardyBTests" */;
+			buildConfigurationList = E2EBCC682ADF8A7A0098413D /* Build configuration list for PBXNativeTarget "cardyBTests" */;
 			buildPhases = (
-				AA652AB52ADF9A7B00460C25 /* Sources */,
-				AA652AB62ADF9A7B00460C25 /* Frameworks */,
-				AA652AB72ADF9A7B00460C25 /* Resources */,
+				E2EBCC4D2ADF8A7A0098413D /* Sources */,
+				E2EBCC4E2ADF8A7A0098413D /* Frameworks */,
+				E2EBCC4F2ADF8A7A0098413D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA652ABB2ADF9A7B00460C25 /* PBXTargetDependency */,
+				E2EBCC532ADF8A7A0098413D /* PBXTargetDependency */,
 			);
 			name = cardyBTests;
 			productName = cardyBTests;
-			productReference = AA652AB92ADF9A7B00460C25 /* cardyBTests.xctest */;
+			productReference = E2EBCC512ADF8A7A0098413D /* cardyBTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA652AC22ADF9A7B00460C25 /* cardyBUITests */ = {
+		E2EBCC5A2ADF8A7A0098413D /* cardyBUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA652AD32ADF9A7B00460C25 /* Build configuration list for PBXNativeTarget "cardyBUITests" */;
+			buildConfigurationList = E2EBCC6B2ADF8A7A0098413D /* Build configuration list for PBXNativeTarget "cardyBUITests" */;
 			buildPhases = (
-				AA652ABF2ADF9A7B00460C25 /* Sources */,
-				AA652AC02ADF9A7B00460C25 /* Frameworks */,
-				AA652AC12ADF9A7B00460C25 /* Resources */,
+				E2EBCC572ADF8A7A0098413D /* Sources */,
+				E2EBCC582ADF8A7A0098413D /* Frameworks */,
+				E2EBCC592ADF8A7A0098413D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA652AC52ADF9A7B00460C25 /* PBXTargetDependency */,
+				E2EBCC5D2ADF8A7A0098413D /* PBXTargetDependency */,
 			);
 			name = cardyBUITests;
 			productName = cardyBUITests;
-			productReference = AA652AC32ADF9A7B00460C25 /* cardyBUITests.xctest */;
+			productReference = E2EBCC5B2ADF8A7A0098413D /* cardyBUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AA652AA12ADF9A7900460C25 /* Project object */ = {
+		E2EBCC392ADF8A760098413D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					AA652AA82ADF9A7A00460C25 = {
-						CreatedOnToolsVersion = 15.0;
+					E2EBCC402ADF8A760098413D = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
-					AA652AB82ADF9A7B00460C25 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = AA652AA82ADF9A7A00460C25;
+					E2EBCC502ADF8A7A0098413D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E2EBCC402ADF8A760098413D;
 					};
-					AA652AC22ADF9A7B00460C25 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = AA652AA82ADF9A7A00460C25;
+					E2EBCC5A2ADF8A7A0098413D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E2EBCC402ADF8A760098413D;
 					};
 				};
 			};
-			buildConfigurationList = AA652AA42ADF9A7900460C25 /* Build configuration list for PBXProject "cardyB" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = E2EBCC3C2ADF8A760098413D /* Build configuration list for PBXProject "cardyB" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = AA652AA02ADF9A7900460C25;
-			productRefGroup = AA652AAA2ADF9A7A00460C25 /* Products */;
+			mainGroup = E2EBCC382ADF8A760098413D;
+			productRefGroup = E2EBCC422ADF8A760098413D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA652AA82ADF9A7A00460C25 /* cardyB */,
-				AA652AB82ADF9A7B00460C25 /* cardyBTests */,
-				AA652AC22ADF9A7B00460C25 /* cardyBUITests */,
+				E2EBCC402ADF8A760098413D /* cardyB */,
+				E2EBCC502ADF8A7A0098413D /* cardyBTests */,
+				E2EBCC5A2ADF8A7A0098413D /* cardyBUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AA652AA72ADF9A7A00460C25 /* Resources */ = {
+		E2EBCC3F2ADF8A760098413D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA652AB42ADF9A7B00460C25 /* Preview Assets.xcassets in Resources */,
-				AA652AB12ADF9A7B00460C25 /* Assets.xcassets in Resources */,
+				E2EBCC4C2ADF8A7A0098413D /* Preview Assets.xcassets in Resources */,
+				E2EBCC492ADF8A7A0098413D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA652AB72ADF9A7B00460C25 /* Resources */ = {
+		E2EBCC4F2ADF8A7A0098413D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA652AC12ADF9A7B00460C25 /* Resources */ = {
+		E2EBCC592ADF8A7A0098413D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,56 +253,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA652AA52ADF9A7A00460C25 /* Sources */ = {
+		E2EBCC3D2ADF8A760098413D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA652AAF2ADF9A7A00460C25 /* ContentView.swift in Sources */,
-				AA652AAD2ADF9A7A00460C25 /* cardyBApp.swift in Sources */,
+				E2EBCC472ADF8A760098413D /* ContentView.swift in Sources */,
+				E2EBCC452ADF8A760098413D /* cardyBApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA652AB52ADF9A7B00460C25 /* Sources */ = {
+		E2EBCC4D2ADF8A7A0098413D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA652ABE2ADF9A7B00460C25 /* cardyBTests.swift in Sources */,
+				E2EBCC562ADF8A7A0098413D /* cardyBTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA652ABF2ADF9A7B00460C25 /* Sources */ = {
+		E2EBCC572ADF8A7A0098413D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA652AC82ADF9A7B00460C25 /* cardyBUITests.swift in Sources */,
-				AA652ACA2ADF9A7B00460C25 /* cardyBUITestsLaunchTests.swift in Sources */,
+				E2EBCC602ADF8A7A0098413D /* cardyBUITests.swift in Sources */,
+				E2EBCC622ADF8A7A0098413D /* cardyBUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AA652ABB2ADF9A7B00460C25 /* PBXTargetDependency */ = {
+		E2EBCC532ADF8A7A0098413D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA652AA82ADF9A7A00460C25 /* cardyB */;
-			targetProxy = AA652ABA2ADF9A7B00460C25 /* PBXContainerItemProxy */;
+			target = E2EBCC402ADF8A760098413D /* cardyB */;
+			targetProxy = E2EBCC522ADF8A7A0098413D /* PBXContainerItemProxy */;
 		};
-		AA652AC52ADF9A7B00460C25 /* PBXTargetDependency */ = {
+		E2EBCC5D2ADF8A7A0098413D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA652AA82ADF9A7A00460C25 /* cardyB */;
-			targetProxy = AA652AC42ADF9A7B00460C25 /* PBXContainerItemProxy */;
+			target = E2EBCC402ADF8A760098413D /* cardyB */;
+			targetProxy = E2EBCC5C2ADF8A7A0098413D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AA652ACB2ADF9A7B00460C25 /* Debug */ = {
+		E2EBCC632ADF8A7A0098413D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -332,8 +332,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -347,25 +346,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		AA652ACC2ADF9A7B00460C25 /* Release */ = {
+		E2EBCC642ADF8A7A0098413D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -395,8 +393,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -404,17 +401,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AA652ACE2ADF9A7B00460C25 /* Debug */ = {
+		E2EBCC662ADF8A7A0098413D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -434,7 +431,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Shiyun.cardyB;
+				PRODUCT_BUNDLE_IDENTIFIER = bernie.cardyB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -442,7 +439,7 @@
 			};
 			name = Debug;
 		};
-		AA652ACF2ADF9A7B00460C25 /* Release */ = {
+		E2EBCC672ADF8A7A0098413D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -462,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Shiyun.cardyB;
+				PRODUCT_BUNDLE_IDENTIFIER = bernie.cardyB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,7 +467,7 @@
 			};
 			name = Release;
 		};
-		AA652AD12ADF9A7B00460C25 /* Debug */ = {
+		E2EBCC692ADF8A7A0098413D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -478,18 +475,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Shiyun.cardyBTests;
+				PRODUCT_BUNDLE_IDENTIFIER = bernie.cardyBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardyB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cardyB";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardyB.app/cardyB";
 			};
 			name = Debug;
 		};
-		AA652AD22ADF9A7B00460C25 /* Release */ = {
+		E2EBCC6A2ADF8A7A0098413D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -497,18 +494,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Shiyun.cardyBTests;
+				PRODUCT_BUNDLE_IDENTIFIER = bernie.cardyBTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardyB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cardyB";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardyB.app/cardyB";
 			};
 			name = Release;
 		};
-		AA652AD42ADF9A7B00460C25 /* Debug */ = {
+		E2EBCC6C2ADF8A7A0098413D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,7 +513,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Shiyun.cardyBUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = bernie.cardyBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -525,7 +522,7 @@
 			};
 			name = Debug;
 		};
-		AA652AD52ADF9A7B00460C25 /* Release */ = {
+		E2EBCC6D2ADF8A7A0098413D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -533,7 +530,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Shiyun.cardyBUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = bernie.cardyBUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -545,43 +542,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA652AA42ADF9A7900460C25 /* Build configuration list for PBXProject "cardyB" */ = {
+		E2EBCC3C2ADF8A760098413D /* Build configuration list for PBXProject "cardyB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA652ACB2ADF9A7B00460C25 /* Debug */,
-				AA652ACC2ADF9A7B00460C25 /* Release */,
+				E2EBCC632ADF8A7A0098413D /* Debug */,
+				E2EBCC642ADF8A7A0098413D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA652ACD2ADF9A7B00460C25 /* Build configuration list for PBXNativeTarget "cardyB" */ = {
+		E2EBCC652ADF8A7A0098413D /* Build configuration list for PBXNativeTarget "cardyB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA652ACE2ADF9A7B00460C25 /* Debug */,
-				AA652ACF2ADF9A7B00460C25 /* Release */,
+				E2EBCC662ADF8A7A0098413D /* Debug */,
+				E2EBCC672ADF8A7A0098413D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA652AD02ADF9A7B00460C25 /* Build configuration list for PBXNativeTarget "cardyBTests" */ = {
+		E2EBCC682ADF8A7A0098413D /* Build configuration list for PBXNativeTarget "cardyBTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA652AD12ADF9A7B00460C25 /* Debug */,
-				AA652AD22ADF9A7B00460C25 /* Release */,
+				E2EBCC692ADF8A7A0098413D /* Debug */,
+				E2EBCC6A2ADF8A7A0098413D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA652AD32ADF9A7B00460C25 /* Build configuration list for PBXNativeTarget "cardyBUITests" */ = {
+		E2EBCC6B2ADF8A7A0098413D /* Build configuration list for PBXNativeTarget "cardyBUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA652AD42ADF9A7B00460C25 /* Debug */,
-				AA652AD52ADF9A7B00460C25 /* Release */,
+				E2EBCC6C2ADF8A7A0098413D /* Debug */,
+				E2EBCC6D2ADF8A7A0098413D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AA652AA12ADF9A7900460C25 /* Project object */;
+	rootObject = E2EBCC392ADF8A760098413D /* Project object */;
 }
