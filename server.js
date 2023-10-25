@@ -5,11 +5,34 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-app.post('/api/data', (req, res) => {
-  console.log(req.body);
-  // Replace this with your data or database query
+app.post('/updateCard', (req, res) => {
+  //mock data
+  const user_id = 3837;
+  const cards = ["amex", "visa"];
+  const isAdd = true;
+  // const user_id = req.body.user_id;
+  // const cards = req.body.cards;
+  // const isAdd = req.body.isAdd;
+  if (isAdd) {
+    //TODO: connect with database
+    const data = {
+      cards: [12, 23, 34]
+    };
+  } else {
+    const data = {
+      cards: [13, 35, 57]
+    };    
+  }
+  res.json(data);
+});
+
+app.get('/fetchAmount', (req, res) => {
+  const user_id = 3837;
+  const category_id = 12;
+  const amount = 3.0;
   const data = {
-    message: "Hello Node.js!",
+    card_id: 12,
+    amount: 2.0
   };
   res.json(data);
 });
