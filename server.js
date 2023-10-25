@@ -13,6 +13,24 @@ app.post('/updateCard', (req, res) => {
   const user_id = req.body.user_id;
   const cards = req.body.cards;
   const isAdd = req.body.isAdd;
+  if (user_id !== parseInt(user_id)) {
+    res.status(400).send('user_id is not integer');
+    return;
+  }
+  if (typeof cards !== "object") {
+    res.status(400).send('cards is not a list');
+    return;
+  }
+  cards.forEach(c => {
+    if (c !== parseInt(c)) {
+      res.status(400).send('card_id is not integer');
+    }
+    return;
+  });
+  if (typeof isAdd !== "boolean") {
+    res.status(400).send('isAdd is not boolean');
+    return;
+  }
   let data;
   if (isAdd) {
     //TODO: connect with database
