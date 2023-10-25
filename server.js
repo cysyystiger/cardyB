@@ -7,12 +7,12 @@ app.use(bodyParser.json());
 
 app.post('/updateCard', (req, res) => {
   //mock data
-  const user_id = 3837;
-  const cards = ["amex", "visa"];
-  const isAdd = true;
-  // const user_id = req.body.user_id;
-  // const cards = req.body.cards;
-  // const isAdd = req.body.isAdd;
+  // const user_id = 3837;
+  // const cards = ["amex", "visa"];
+  // const isAdd = true;
+  const user_id = req.body.user_id;
+  const cards = req.body.cards;
+  const isAdd = req.body.isAdd;
   let data;
   if (isAdd) {
     //TODO: connect with database
