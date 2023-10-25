@@ -13,13 +13,14 @@ app.post('/updateCard', (req, res) => {
   // const user_id = req.body.user_id;
   // const cards = req.body.cards;
   // const isAdd = req.body.isAdd;
+  let data;
   if (isAdd) {
     //TODO: connect with database
-    const data = {
+    data = {
       cards: [12, 23, 34]
     };
   } else {
-    const data = {
+    data = {
       cards: [13, 35, 57]
     };    
   }
