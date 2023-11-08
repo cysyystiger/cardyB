@@ -80,44 +80,12 @@ struct ContentView: View {
             }
         }
     }
-
-//    func fetchData() {
-//        guard let url = URL(string: "http://localhost:3000/api/data") else {
-//            return
-//        }
-//
-//        //### This is a little bit simplified. You may need to escape `username` and `password` when they can contain some special characters...
-//        let body = "hello"
-//        let finalBody = body.data(using: .utf8)
-//        var request = URLRequest(url: url)
-//        request.httpMethod = "POST"
-//        request.httpBody = finalBody
-//        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-//
-//        URLSession.shared.dataTask(with: request) { (data, response, error) in
-//            print(response as Any)
-//            if let error = error {
-//                print("Bernie error")
-//                print(error)
-//                message = "error!"
-//                return
-//            }
-//            guard let data = data else {
-//                print("Bernie no data")
-//                message = "No data!"
-//                return
-//            }
-//            print(data, String(data: data, encoding: .utf8) ?? "*unknown encoding*")
-//            print("Bernie got data")
-//            message = "Got data!"
-//        }.resume()
-//        showResult = true
-//    }
+    
     func fetchData() {
         // Define a struct for your request data
         struct RequestData: Codable {
             var user_id: Int
-            var cards: [String]
+            var cards: [Int]
             var isAdd: Bool
         }
 
@@ -126,16 +94,13 @@ struct ContentView: View {
             var cards: [Int]
         }
 
-        let requestData = RequestData(user_id: 3837, cards: ["amex", "visa"], isAdd: true) // Replace with actual data
+        let requestData = RequestData(user_id: 3837, cards: [3, 12], isAdd: true) // Replace with actual data
 
         do {
             let encoder = JSONEncoder()
             let data = try encoder.encode(requestData)
             print("Bernie", data)
-
-//            guard let url = URL(string: "http://localhost:3000/api/data") else {
-//                return
-//            }
+            
             guard let url = URL(string: "http://localhost:3000/updateCard") else {
                 return
             }
@@ -175,13 +140,3 @@ struct ContentView: View {
     }
 
 }
-
-//@main
-//struct MyApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView()
-//        }
-//    }
-//}
-

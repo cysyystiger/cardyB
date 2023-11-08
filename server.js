@@ -10,6 +10,7 @@ app.post('/updateCard', (req, res) => {
   // const user_id = 3837;
   // const cards = ["amex", "visa"];
   // const isAdd = true;
+  console.log(req.body);
   const user_id = req.body.user_id;
   const cards = req.body.cards;
   const isAdd = req.body.isAdd;
