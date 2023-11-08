@@ -5,14 +5,17 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
+const Pool = require('pg').Pool
+const pool = new Pool({
+  user: 'me',
+  host: 'localhost',
+  database: 'prototype',
+  password: 'password',
+  port: 5432,
+})
+
 app.post('/updateCard', (req, res) => {
-  //mock data
-  // const user_id = 3837;
-  // const cards = ["amex", "visa"];
-  // const isAdd = true;
-  const user_id = req.body.user_id;
-  const cards = req.body.cards;
-  const isAdd = req.body.isAdd;
+  const { user_id, cards, isAdd } = req.body;
   if (user_id !== parseInt(user_id)) {
     res.status(400).send('user_id is not integer');
     return;
@@ -33,19 +36,46 @@ app.post('/updateCard', (req, res) => {
   }
   let data;
   if (isAdd) {
-    //TODO: connect with database
-    data = {
-      cards: [12, 23, 34]
-    };
+    pool.query('UPDATE users SET cards = ARRAY_CAT(cards, $1) WHERE id = $2 RETURNING cards', [cards, user_id], (error, results) => {
+      if (error) {
+        res.status(400).send(`Error: ${error}`);
+        return;
+      }
+      console.log(`User with ID ${user_id} has been updated`);
+      data = {
+        cards: results.rows[0].cards
+      };
+    });
   } else {
-    data = {
-      cards: [13, 35, 57]
-    };    
+    pool.query(
+      `
+      UPDATE users AS t
+      SET cards = (
+          SELECT array_agg(e)
+          FROM unnest(t.cards) AS e
+          WHERE e != ALL($1)
+      )
+      WHERE id = $2
+      RETURNING cards;
+      `,
+      [cards, user_id],
+      (error, results) => {
+        if (error) {
+          res.status(400).send(`Error: ${error}`);
+          return;
+        } else {
+          console.log(`User with ID ${user_id} has been updated`);
+          data = {
+            cards: results.rows[0].cards
+          };
+        }
+      }
+    );  
   }
   res.json(data);
 });
 
-app.get('/fetchAmount', (req, res) => {
+app.post('/fetchAmount', (req, res) => {
   const user_id = 3837;
   const category_id = 12;
   const amount = 3.0;
