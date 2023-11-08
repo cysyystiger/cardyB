@@ -80,8 +80,8 @@ app.post('/fetchAmount', (req, res) => {
   const category_id = 12;
   const amount = 3.0;
   const data = {
-    card_id: 12,
-    amount: 2.0
+    cards: [12, 23, 24],
+    amounts: [5.0, 3.5, 1.0]
   };
   res.json(data);
 });

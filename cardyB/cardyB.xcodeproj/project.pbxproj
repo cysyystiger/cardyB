@@ -14,6 +14,9 @@
 		E2EBCC562ADF8A7A0098413D /* cardyBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBCC552ADF8A7A0098413D /* cardyBTests.swift */; };
 		E2EBCC602ADF8A7A0098413D /* cardyBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBCC5F2ADF8A7A0098413D /* cardyBUITests.swift */; };
 		E2EBCC622ADF8A7A0098413D /* cardyBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EBCC612ADF8A7A0098413D /* cardyBUITestsLaunchTests.swift */; };
+		E2FB06EB2AE8D7E000FB0630 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB06EA2AE8D7E000FB0630 /* CardListView.swift */; };
+		E2FB06F12AE8EE2300FB0630 /* selectCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB06F02AE8EE2300FB0630 /* selectCategoryView.swift */; };
+		E2FB06F32AE8EE4800FB0630 /* recommendedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB06F22AE8EE4800FB0630 /* recommendedCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E2EBCC5B2ADF8A7A0098413D /* cardyBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardyBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EBCC5F2ADF8A7A0098413D /* cardyBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBUITests.swift; sourceTree = "<group>"; };
 		E2EBCC612ADF8A7A0098413D /* cardyBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardyBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2FB06EA2AE8D7E000FB0630 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		E2FB06F02AE8EE2300FB0630 /* selectCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectCategoryView.swift; sourceTree = "<group>"; };
+		E2FB06F22AE8EE4800FB0630 /* recommendedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recommendedCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				E2EBCC442ADF8A760098413D /* cardyBApp.swift */,
 				E2EBCC462ADF8A760098413D /* ContentView.swift */,
+				E2FB06F02AE8EE2300FB0630 /* selectCategoryView.swift */,
+				E2FB06F22AE8EE4800FB0630 /* recommendedCardView.swift */,
+				E2FB06EA2AE8D7E000FB0630 /* CardListView.swift */,
 				E2EBCC482ADF8A7A0098413D /* Assets.xcassets */,
 				E2EBCC4A2ADF8A7A0098413D /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2FB06F12AE8EE2300FB0630 /* selectCategoryView.swift in Sources */,
 				E2EBCC472ADF8A760098413D /* ContentView.swift in Sources */,
+				E2FB06EB2AE8D7E000FB0630 /* CardListView.swift in Sources */,
 				E2EBCC452ADF8A760098413D /* cardyBApp.swift in Sources */,
+				E2FB06F32AE8EE4800FB0630 /* recommendedCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
